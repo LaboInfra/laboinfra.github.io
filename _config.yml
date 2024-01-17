@@ -38,14 +38,14 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: googlef881d2440dd5a863.html
+google_site_verification: f881d2440dd5a863
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
   id: GTM-PNQX5VNM
-  
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
