@@ -28,6 +28,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
+  - search
   - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
@@ -41,6 +42,11 @@ extra:
   favicon: assets/favicon.png
   homepage: https://laboinfra.github.io
   generator: true
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/9GtVSvfUZ4
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:contact@laboinfra.net
   consent:
     actions:
       - manage
@@ -58,8 +64,17 @@ theme:
   name: material
   language: en
   direction: ltr
+
   icon:
     repo: fontawesome/brands/git-alt
+
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - navigation.footer
+
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -83,6 +98,3 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
-  features:
-    - content.action.edit
