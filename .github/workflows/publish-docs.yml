@@ -50,7 +50,7 @@ jobs:
           installer-parallel: true
 
       - name: Install dependencies
-        run: poetry install --no-interaction --with docs --no-root
+        run: poetry install --no-interaction --no-root
 
       - run: poetry run mkdocs build --site-dir ./_site
       - name: Upload artifact
