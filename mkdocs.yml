@@ -1,0 +1,88 @@
+# https://squidfunk.github.io/mkdocs-material/setup/
+site_name: LaboInfra Docs
+site_author: LaboInfra ESGI
+site_description: >-
+  Documentation for LaboInfra projects.
+
+repo_name: laboinfra.github.io
+repo_url: https://github.com/LaboInfra/laboinfra.github.io
+edit_uri: edit/main/docs/
+copyright: >
+  Copyright &copy; 2022 - 2024 LaboInfra ESGI –
+  <a href="#__consent">Change cookie settings</a>
+
+nav:
+  - Getting Started: index.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - git-committers:
+      repository: LaboInfra/laboinfra.github.io
+      branch: main
+
+extra:
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  homepage: https://laboinfra.github.io
+  generator: true
+  consent:
+    actions:
+      - manage
+      - reject
+      - accept
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+theme:
+  font: false
+  name: material
+  language: en
+  direction: ltr
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: light blue
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: light blue
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: light blue
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - content.action.edit
