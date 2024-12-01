@@ -12,7 +12,18 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 
 nav:
-  - Getting Started: index.md
+  - Home:
+    - index.md
+  - Getting Started:
+    - getting_started/index.md
+    - Installation: getting_started/installation.md
+    - Configuration: getting_started/configuration.md
+  - Usage:
+    - usage/index.md
+  - Team: team.md
+  - Project: project.md
+  - Troubleshooting: troubleshooting.md
+  - FAQ: faq.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -28,6 +39,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
+  - privacy
   - search
   - git-authors
   - git-revision-date-localized:
@@ -45,6 +57,8 @@ extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/9GtVSvfUZ4
+    - icon: fontawesome/brands/github
+      link: https://github.com/LaboInfra
     - icon: fontawesome/solid/paper-plane
       link: mailto:contact@laboinfra.net
   consent:
@@ -53,11 +67,9 @@ extra:
       - reject
       - accept
     title: Cookie consent
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+    description: >-
+      We use cookies to display GitHub stats on the docs and because this site is hosted on GitHub Pages.
+      By consenting, you help us improve our services and provide a better experience.
 
 theme:
   font: false
@@ -69,11 +81,23 @@ theme:
     repo: fontawesome/brands/git-alt
 
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+
+    - toc.follow
+
     - search.suggest
     - search.highlight
     - search.share
+
     - content.action.edit
-    - navigation.footer
 
   palette:
     # Palette toggle for automatic mode
