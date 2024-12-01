@@ -21,7 +21,10 @@ nav:
   - Usage:
     - usage/index.md
   - Team: team.md
-  - Project: project.md
+  - Projects:
+    - Overview: project/index.md
+    - Cloud: project/cloud.md
+    - Game: project/game.md
   - Troubleshooting: troubleshooting.md
   - FAQ: faq.md
 
