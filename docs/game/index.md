@@ -3,10 +3,16 @@
 Welcome to the game server hosting service for ESGI associations!
 If you’re an association leader and want to host a server for your gaming activities, follow the steps below.
 
+## :vertical_traffic_light: Service Status
+
+| Service Component | Status |
+|-------------------|--------|
+| Panel             | ![Panel Status](https://status.netbytes.space/api/badge/22/status?style=for-the-badge) |
+| Node-1            | ![Node-1 Status](https://status.netbytes.space/api/badge/39/status?style=for-the-badge) |
+
 ## :white_check_mark: Eligibility Requirements
 
-You must be a registered leader of an ESGI-recognized association.
-Submit an official request via the association’s email or another validated method approved by the school.
+You must be a admin of registered association at ESGI.
 
 ## :sparkles: How to Request Hosting?
 
@@ -22,7 +28,7 @@ We will contact you to discuss how best to meet your needs.
 
 To manage your servers
 
-Dashboard URL: [game.laboinfra.net](https://game.laboinfra.net/)
+Panel URL: [game.laboinfra.net](https://game.laboinfra.net/){:target="_blank"}
 
 Login credentials: Provided by the lab after your request is approved.
 

@@ -10,5 +10,6 @@ This documentation is public and accessible to everyone. While it is primarily i
 2. Responsible Use: Although this documentation is public, its use must remain within legal and ethical boundaries. Any attempt to misuse the information for malicious purposes is strictly prohibited.
 3. Contributions: If you wish to contribute, please ensure that you adhere to the defined security and confidentiality standards for this project.
 
-Reporting Issues
+## Reporting Issues
+
 If you identify a potential vulnerability or information that should not be public, please report it immediately to the team via discord by creating a ticket or by mail a contact[at]laboinfra.net

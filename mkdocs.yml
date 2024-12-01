@@ -40,7 +40,6 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  - privacy
   - search
   - git-authors
   - git-revision-date-localized:
@@ -51,7 +50,7 @@ plugins:
       branch: main
 
 extra:
-  logo: assets/logo.svg
+  logo: assets/images/logo.svg
   favicon: assets/favicon.png
   homepage: https://laboinfra.github.io
   generator: true
