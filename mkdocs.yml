@@ -40,6 +40,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
+  - mkdocs-video
   - search
   - git-authors
   - git-revision-date-localized:
@@ -70,6 +71,9 @@ extra:
     description: >-
       We use cookies to display GitHub stats on the docs and because this site is hosted on GitHub Pages.
       By consenting, you help us improve our services and provide a better experience.
+
+extra_templates:
+  - iframe.html
 
 theme:
   font: false
