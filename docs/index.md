@@ -22,9 +22,7 @@ Events: CTFs, Clash des Écoles, and other.
 
 ## :movie_camera: Our Cloud Project Conference
 
-Relive our Cloud Day ESGI 2024 presentation:
-
-![type:video](https://www.youtube.com/watch?v=RSTYQJ_wJm4)
+Relive our Cloud Day ESGI 2024 presentation on YouTube : [Conf ESGI CloudDay LaboInfra](https://www.youtube.com/watch?v=RSTYQJ_wJm4)
 
 ## :link: Explore the Documentation
 
