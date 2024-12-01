@@ -12,21 +12,19 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 
 nav:
-  - Home:
-    - index.md
-  - Getting Started:
-    - getting_started/index.md
-    - Installation: getting_started/installation.md
-    - Configuration: getting_started/configuration.md
-  - Usage:
-    - usage/index.md
-  - Team: team.md
+  - Home: index.md
   - Projects:
     - Overview: project/index.md
     - Cloud: project/cloud.md
     - Game: project/game.md
+  - Cloud:
+    - cloud/index.md
+  - Game:
+    - game/index.md
+  - Team: team.md
   - Troubleshooting: troubleshooting.md
   - FAQ: faq.md
+  - Join us: join.md
 
 markdown_extensions:
   - pymdownx.highlight:
