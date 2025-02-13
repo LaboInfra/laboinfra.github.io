@@ -8,7 +8,7 @@ repo_name: laboinfra.github.io
 repo_url: https://github.com/LaboInfra/laboinfra.github.io
 edit_uri: edit/main/docs/
 copyright: >
-  Copyright &copy; 2022 - 2024 LaboInfra ESGI –
+  Copyright &copy; 2022 - 2025 LaboInfra ESGI –
   <a href="#__consent">Change cookie settings</a>
 
 nav:
@@ -18,7 +18,9 @@ nav:
     - Cloud: project/cloud.md
     - Game: project/game.md
   - Cloud:
-    - cloud/index.md
+    - Getting started: cloud/getting-started.md
+    - Install certificate: cloud/cert.md
+    - CLI reference: cloud/cli.md
   - Game:
     - game/index.md
   - Team: team.md
@@ -101,6 +103,7 @@ theme:
     - search.share
 
     - content.action.edit
+    - content.code.copy
 
   palette:
     # Palette toggle for automatic mode
