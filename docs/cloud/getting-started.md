@@ -78,6 +78,8 @@ This will print to the console your OpenStack password. For the username, use th
 
 You can now access the OpenStack dashboard with the following URL: [Openstack Console](https://console.cloud.laboinfra.net/horizon/)
 
+For the domain, use `esgi` and for the username, use the username you use to login to the LaboInfra service.
+
 ## Next steps
 
 For more information about how to use labctl, check the [CLI documentation](cli.md).
