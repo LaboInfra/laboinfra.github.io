@@ -2,7 +2,9 @@
 
 ## :memo: Our Mission
 
-Laboinfra, the ESGI infrastructure laboratory, is dedicated to providing innovative and collaborative solutions for students, professors, and school associations. Our projects include a private cloud, a game server platform, and more.
+Laboinfra, the ESGI infrastructure laboratory, is dedicated to providing innovative and collaborative
+solutions for students, professors, and school associations. Our projects include a private cloud,
+a game server platform, and responding to the needs of the different ESGI associations.
 
 ## :mag: Overview
 
@@ -26,7 +28,6 @@ Relive our Cloud Day ESGI 2024 presentation on YouTube : [Conf ESGI CloudDay Lab
 
 ## :link: Explore the Documentation
 
-* [Projects](/project): Learn about our key initiatives.
 * [Cloud](/cloud): A complete user guide for the cloud.
 * [Game Servers](/game): Documentation for ESGI association admins.
 * [Team](/team): Meet the people behind the scenes.
@@ -34,7 +35,7 @@ Relive our Cloud Day ESGI 2024 presentation on YouTube : [Conf ESGI CloudDay Lab
 
 ## :bulb: How to Join Us
 
-Interested in using our services orcontributing ? Visit the [Join Us](/join) page to get started.
+Interested in using our services or contributing ? Visit the [Join Us](/join) page to get started.
 
 ## :ambulance: Need Help?
 

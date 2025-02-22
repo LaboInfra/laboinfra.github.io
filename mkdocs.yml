@@ -3,6 +3,7 @@ site_name: LaboInfra Docs
 site_author: LaboInfra ESGI
 site_description: >-
   Documentation for LaboInfra projects.
+site_url: https://docs.laboinfra.net
 
 repo_name: laboinfra.github.io
 repo_url: https://github.com/LaboInfra/laboinfra.github.io
@@ -12,15 +13,16 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 
 nav:
-  - Home: index.md
   - Projects:
-    - Overview: project/index.md
+    - Overview: index.md
     - Cloud: project/cloud.md
     - Game: project/game.md
+    - MindBreak: project/mindbreak.md
   - Cloud:
     - Getting started: cloud/getting-started.md
     - Install certificate: cloud/cert.md
     - CLI reference: cloud/cli.md
+    - Terms of service: cloud/tos.md
   - Game:
     - game/index.md
   - Team: team.md
@@ -43,6 +45,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - social
   - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
@@ -52,9 +55,9 @@ plugins:
       branch: main
 
 extra:
-  logo: assets/images/logo.svg
+  logo: assets/images/logo.png
   favicon: assets/favicon.png
-  homepage: https://laboinfra.github.io
+  homepage: https://docs.laboinfra.net
   generator: true
   social:
     - icon: fontawesome/brands/discord
@@ -73,14 +76,13 @@ extra:
       We use cookies to display GitHub stats on the docs and because this site is hosted on GitHub Pages.
       By consenting, you help us improve our services and provide a better experience.
 
-extra_templates:
-  - iframe.html
-
 theme:
   font: false
   name: material
   language: en
   direction: ltr
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
 
   icon:
     repo: fontawesome/brands/git-alt
