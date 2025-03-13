@@ -82,4 +82,4 @@ For the domain, use `esgi` and for the username, use the username you use to log
 
 ## Next steps
 
-For more information about how to use labctl, check the [CLI documentation](cli.md).
+You will need to give quota to the project you created to be able to create resources. You can check the [Projects and Quotas](projects_quotas.md) documentation for more information.

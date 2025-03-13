@@ -14,7 +14,7 @@ Access is restricted to ESGI students and teachers. Each user must use their own
 
 ## 4. Best Practices and Restrictions
 
-### What You Can Do:
+### What You Can Do
 
 - Deploy virtual machines and use resources for educational purposes.
 - Test applications, develop projects, and experiment with cloud technologies.
@@ -22,7 +22,7 @@ Access is restricted to ESGI students and teachers. Each user must use their own
 - Respect the quotas allocated to your account.
 - Secure your access and data.
 
-### What Is Prohibited:
+### What Is Prohibited
 
 - Hosting publicly accessible services without authorization.
 - Engaging in illegal activities (hacking, DDoS, cryptomining, etc.).
@@ -36,6 +36,7 @@ Access is restricted to ESGI students and teachers. Each user must use their own
 
 - Each user is responsible for actions performed with their account.
 - Any suspicious or non-compliant activity may be reported and investigated.
+- Monitoring and Intervention: The Infrastructure Lab team reserves the right to access any hosted resources if suspicious activity is detected that could compromise the security, stability, or integrity of the services. This includes, but is not limited to, unauthorized access attempts, abuse of resources, or any actions that violate the platform’s acceptable use policies. Any attempt to obstruct an investigation or restrict administrator access will result in an immediate account suspension and an official report to the ESGI administration.
 - If a user performs unauthorized actions or endangers the infrastructure, the incident will be immediately reported to the ESGI administration. The user may be required to explain their actions at a disciplinary committee.
 - VM updates and security are the user’s responsibility.
 - In case of issues, contact the team via the #ticket-help channel on Discord.

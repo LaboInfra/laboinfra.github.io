@@ -21,6 +21,7 @@ nav:
   - Cloud:
     - Getting started: cloud/getting-started.md
     - Install certificate: cloud/cert.md
+    - Manage projects and quotas: cloud/projects_quotas.md
     - CLI reference: cloud/cli.md
     - Terms of service: cloud/tos.md
   - Game:
@@ -38,6 +39,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - admonition
+  - pymdownx.details
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
