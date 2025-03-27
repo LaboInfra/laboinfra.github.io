@@ -19,7 +19,7 @@ Events: CTFs, Clash des Écoles, and other.
 * 50+ virtual machines deployed by student and professor for studies.
 * 120TB Raw of storage implemented using Ceph.
 * 50 servers powering our infrastructure.
-* 2+ associations benefiting from our game servers.
+* 3+ associations benefiting from our services.
 * 2 year of hard work to bring our private cloud to life.
 
 ## :movie_camera: Our Cloud Project Conference
