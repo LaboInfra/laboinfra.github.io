@@ -1,5 +1,11 @@
 # Getting Started
 
+## Introduction
+
+This guide will help you get started with Labctl, a command-line tool designed to manage your account and resources on the LaboInfra service. You will learn how to install and configure Labctl, reset your password, log in, and connect to the LaboInfra network using Tailscale. Additionally, this guide covers how to create an OpenStack project and retrieve your credentials to access cloud resources.
+
+By following this guide, you will be able to set up your environment and start using the LaboInfra service efficiently.
+
 ## Prerequisites
 
 You will need to install the following software:

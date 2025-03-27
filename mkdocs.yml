@@ -24,6 +24,8 @@ nav:
     - Manage projects and quotas: cloud/projects_quotas.md
     - CLI reference: cloud/cli.md
     - Terms of service: cloud/tos.md
+    - OpenStack:
+      - Configure openstack cli: cloud/openstack/cli.md
   - Game:
     - game/index.md
   - Team: team.md
